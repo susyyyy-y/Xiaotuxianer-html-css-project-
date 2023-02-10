@@ -1,0 +1,223 @@
+/* 各个样式相同代码 */
+/* 版心 */
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+/* 顶部快捷导航 */
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut .wrapper {
+  height: 52px;
+  /* background-color: pink; */
+}
+
+.shortcut .wrapper ul {
+  float: right;
+}
+
+.shortcut .wrapper li {
+  float: left;
+  line-height: 52px;
+}
+
+.shortcut .wrapper a {
+  padding: 0 16px;
+  border-right: 1px solid #666;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+.shortcut .wrapper a span {
+  display: inline-block;
+  width: 11px;
+  height: 18px;
+  margin-right: 8px;
+  background-image: url(../images/sprites.png);
+  background-position: -160px -70px;
+
+  vertical-align: middle;
+}
+
+.header {
+  margin: 30px auto;
+  height: 70px;
+  /* background-color: pink; */
+}
+
+.logo {
+  float: left;
+  width: 207px;
+  height: 70px;
+  margin-left: 25px;
+}
+
+/* logo 搜索引擎优化做法 */
+.logo h1 {
+  width: 207px;
+  height: 70px;
+}
+
+.logo h1 a {
+  display: inline-block;
+  width: 207px;
+  height: 70px;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.header .nav {
+  float: left;
+  height: 70px;
+  /* background-color: green; */
+  margin: auto 40px auto 34px;
+}
+
+.header .nav li {
+  float: left;
+  margin-right: 48px;
+  line-height: 70px;
+}
+
+.header .nav li a {
+  padding-bottom: 7px;
+}
+
+.header .nav a:hover {
+  color: #27ba9b;
+  border-bottom: 1px solid #27ba9b;
+}
+
+.header .search {
+  position: relative;
+  float: left;
+  margin-top: 24px;
+  width: 172px;
+  height: 30px;
+  margin-right: 15px;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search input {
+  height: 28px;
+  width: 172px;
+  padding-left: 30px;
+}
+
+.header .search input::placeholder {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.search span {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/sprites.png);
+  background-position: -79px -69px;
+}
+
+.header .cart {
+  position: relative;
+  float: left;
+  margin-top: 28px;
+  width: 23px;
+  height: 23px;
+  /* background-color: orange; */
+  background-image: url(../images/sprites.png);
+  background-position: -119px -69px;
+}
+
+.cart span {
+  /* 子绝父相的元素本来就具备行内块特点脱标 */
+  position: absolute;
+  right: -13px;
+  top: -6px;
+  width: 20px;
+  height: 15px;
+  background-color: #e26237;
+  border-radius: 8px;
+
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  line-height: 15px;
+}
+
+/* 版权footer */
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 2px solid #434343;
+    
+}
+
+.footer .top li {
+    float: left;
+    height: 58px;
+    width: 195px;
+    margin-right: 300px;
+    /* background-color: red; */
+}
+
+.footer .top li:last-child{
+    margin-right: 0;
+}
+
+.footer .top li span:before {
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+    margin-right: 19px;
+}
+
+.footer .top li:nth-child(2) span:before{
+    background-position: -130px 0;
+}
+
+.footer .top li:nth-child(3) span:before{
+    background-position: -65px 0;
+}
+
+.footer .top li span {
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .bottom {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color:#999;
+}
+
+.footer .bottom a{
+    font-size: 14px;
+    color:#999;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}
